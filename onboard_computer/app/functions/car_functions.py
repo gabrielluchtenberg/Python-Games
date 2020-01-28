@@ -6,7 +6,8 @@ class CarFunctions:
         self.brake = brake
         self.march = march
 
-    def turn_on(self):
+    @staticmethod
+    def turn_on():
         pass
 
     def turn_off(self):
